@@ -3,7 +3,7 @@
 
 ## Lightweight Ruby API for Algorithmic Complexity Estimation
 # Abstract
-is a minimalistic HTTP service that estimates time complexity (Big-O) of user-defined Ruby functions via runtime benchmarking.
+is a HTTP service that estimates time complexity (Big-O) of user-defined Ruby functions via runtime benchmarking.
 It evaluates time growth over varying input sizes and heuristically classifies the algorithm's asymptotic behavior.
 
 This tool is intended for:
