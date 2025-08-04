@@ -1,0 +1,7 @@
+curl -X POST http://localhost:3000/big_o \
+  -H "Content-Type: application/json" \
+  -d '{
+    "code": "def run(n); sum = 0; (0...n).each { |i| sum += i }; end"
+  }'
+
+## example JSON return
